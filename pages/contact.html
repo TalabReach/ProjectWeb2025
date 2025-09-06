@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cantact</title>
     <link rel="stylesheet" href="../style/contact.css">
-    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
-     <header>
+    <header>
         <!-- Logo and Title -->
         <div class="logo">
             <img src="../images/lesson/school.png" alt="Logo">
-            
+
         </div>
         <!-- Navigation -->
         <nav>
@@ -27,6 +30,116 @@
             <a href="contact.html">Contact Us</a>
         </div>
     </header>
-    
+    <main>
+        <h1>Contact for institutions</h1>
+        <p>Trusted by institutions worldwide. Discover how we can help your institution’s recruitment goals!</p>
+
+        <div class="toggle-buttons">
+            <button class="active" onclick="toggleUserType('institution')">I work at an institution</button>
+            <button onclick="toggleUserType('student')">I'm a student</button>
+        </div>
+
+        <form>
+            <label for="firstName">First name*</label>
+            <input type="text" id="firstName" name="firstName"  placeholder="Your first name"required>
+
+            <label for="lastName">Last name*</label>
+            <input type="text" id="lastName" name="lastName"  placeholder="Your last name" required>
+
+            <label for="jobTitle">Job title*</label>
+            <input type="text" id="jobTitle" name="jobTitle"  placeholder="Your job title_pp1" required>
+
+            <label for="institution">Institution*</label>
+            <input type="text" id="institution" name="institution"  placeholder="Your Institutions" required>
+
+            <label for="email">Email address*</label>
+            <input type="email" id="email" name="email" placeholder="youremail@institution.com" required>
+
+            <label for="message">Your message*</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="consent" required>
+                <label for="consent">By submitting this form, I agree to my data being stored and protected under
+                    Studyportals’ privacy policy...</label>
+            </div>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+
+        <script>
+            function toggleUserType(type) {
+                const buttons = document.querySelectorAll('.toggle-buttons button');
+                buttons.forEach(btn => btn.classList.remove('active'));
+                if (type === 'institution') {
+                    buttons[0].classList.add('active');
+                } else {
+                    buttons[1].classList.add('active');
+                }
+            }
+        </script>
+    </main>
+      <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Our Portals</h3>
+                <a href="#">Bachelorsportal.com</a>
+                <a href="#">Mastersportal.com</a>
+                <a href="#">PhDportal.com</a>
+                <a href="#">Shortcoursesportal.com</a>
+                <a href="#">Distancelearningportal.com</a>
+                <a href="#">Admissiontestportal.com</a>
+                <a href="#">Englishtestportal.com</a>
+                <a href="#">Studentinsuranceportal.com</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>For Institutions</h3>
+                <a href="#">Student Recruitment & Marketing</a>
+                <a href="#">Data & Insights</a>
+                <a href="#">Consulting</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <a href="#">About Studyportals</a>
+                <a href="#">Newsroom</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <a href="#">Guides & reports</a>
+                <a href="#">Articles</a>
+                <a href="#">Case Studies</a>
+                <a href="#">Events</a>
+                <a href="#">All Resources</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Studyportals. All rights reserved.</p>
+            <div class="links">
+                <a href="#">Privacy & Cookies</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Disclaimer</a>
+            </div>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="social_media">
+                <img src="../images/contacts/facebook.png" alt="">
+
+                
+            </div>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
