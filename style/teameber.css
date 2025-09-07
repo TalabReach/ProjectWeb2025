@@ -152,3 +152,90 @@
       width: 100%;
       height: 200px;
      }
+
+     .footer {
+    width: 100%;
+    padding: 40px 100px;
+    margin-top: 40px;
+    background-color: #fff; /* White background */
+    color: #111; /* Dark text color */
+    font-size: 14px;
+  }
+
+  /* Container for the columns, using flexbox for layout */
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Wrap columns on smaller screens */
+  }
+
+  /* Individual footer column styling */
+  .footer-column {
+    flex: 1; /* Grow equally */
+    min-width: 180px; /* Minimum width for each column */
+    margin-right: 20px; /* Space between columns */
+  }
+
+  /* Remove right margin for the last column */
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+
+  /* Column heading style */
+  .footer-column h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  /* Links inside each column */
+  .footer-column a {
+    display: block; /* Each link on its own line */
+    color: #111; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 8px; /* Spacing between links */
+    font-weight: normal;
+  }
+
+  /* Hover effect on links */
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+
+  /* Bottom section of footer with copyright, extra links and social icons */
+  .footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+  }
+
+  /* Copyright text */
+  .footer-bottom p {
+    margin: 0;
+  }
+
+  /* Container for privacy, terms, disclaimer links */
+  .footer-bottom .links a {
+    margin-left: 20px; /* Space between these links */
+    color: #111;
+    text-decoration: none;
+  }
+
+  /* Hover effect for bottom links */
+  .footer-bottom .links a:hover {
+    text-decoration: underline;
+  }
+
+  /* Social media icons container */
+  .social-icons a {
+    margin-left: 15px;
+    color: #111;
+    font-size: 20px;
+    text-decoration: none;
+  }
+    
+    
+  
+
+    
