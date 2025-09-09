@@ -56,3 +56,229 @@
     .btn:hover{
         background-color: rgb(53, 53, 173);
     }
+    section{
+      margin-top: 32px;
+      width: 100%;
+    }
+    .card_tn{
+      display: flex;
+    }
+    .card_1{
+      padding: 24px 32px;
+      width: 30%;
+      height: 500px;
+    }
+    .card_1 h1{
+      font-size: 48px;
+      margin-bottom: 32px;
+    }
+    .card_2{
+      padding: 16px 40px;
+      width: 60%;
+      height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card_2 img{
+      border-radius: 10px;
+      width: 80%;
+      height: 340px;
+    }
+
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      margin-left: 32px;
+    }
+
+    .grid {
+      margin-bottom: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 20px;
+      padding: 24px 32px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      height: 240px;
+      display: flex;
+
+    }
+
+    .card img {
+      width: 50%;
+      height: 240px;
+      object-fit: cover;
+      transition: background 0.3s ease,  transform 0.2s ease;
+    }
+    .card img:hover{
+      transform: scale(1.05);
+    }
+
+    .content {
+      padding: 15px;
+      flex-grow: 1;
+    }
+
+    .hh1{
+      font-size: 40px;
+      margin-left: 32px;
+    }
+   
+
+    .tag {
+      display: inline-block;
+      background-color: #eee;
+      color: #555;
+      font-size: 12px;
+      padding: 3px 8px;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #003366;
+      margin-bottom: 110px;
+    }
+
+    .read-more {
+      color: #0077cc;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    p.subtitle {
+      margin-left: 32px;
+      margin-right: 32px;
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .conference-card {
+      display: flex;
+      flex-wrap: wrap;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .conference-image {
+      flex: 1;
+      min-width: 300px;
+      background: url('your-image.png') center center/cover no-repeat;
+      height: 400px;
+      position: relative;
+    }
+
+    .image-overlay {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(255,255,255,0.9);
+      padding: 20px;
+    }
+
+    .image-overlay h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .image-overlay p {
+      margin: 5px 0 0;
+      font-size: 16px;
+    }
+
+    .conference-details {
+      flex: 1;
+      padding: 30px;
+    }
+
+    .conference-details h3 {
+      font-size: 20px;
+      margin-top: 0;
+    }
+
+    .conference-details .tag {
+      display: inline-block;
+      background: #eef0f3;
+      color: #333;
+      font-size: 12px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-right: 5px;
+    }
+
+    .conference-details .date-location {
+      font-size: 14px;
+      color: #666;
+      margin: 10px 0;
+    }
+
+    .conference-details p.description {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+     .banner {
+      background-color: #0d5bcc;
+      color: white;
+      padding: 50px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .banner h1 {
+      font-size: 36px;
+      margin: 0 0 10px;
+    }
+
+    .banner p {
+      font-size: 16px;
+      margin: 0 0 20px;
+    }
+
+    .banner .contact-btn {
+      background-color: white;
+      color: #0d5bcc;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      position: absolute;
+      right: 40px;
+      top: 40px;
+    }
+
+    .banner::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -100px;
+      width: 300px;
+      height: 100%;
+      background: linear-gradient(135deg, #0d5bcc, #f04a4a);
+      transform: rotate(45deg);
+      opacity: 0.7;
+    }

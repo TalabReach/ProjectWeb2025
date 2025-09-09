@@ -97,7 +97,7 @@
     .emea_img{
       display: flex;
       flex-wrap: wrap;
-      gap: 50px;
+      gap: 45px;
       margin-top: 24px;
     }
     .box_imge{
@@ -133,7 +133,7 @@
      .kingdom_image{
       display: flex;
       flex-wrap: wrap;
-      gap: 50px;
+      gap: 45px;
       margin-top: 24px;
      }
 
@@ -157,8 +157,8 @@
     width: 100%;
     padding: 40px 100px;
     margin-top: 40px;
-    background-color: #fff; /* White background */
-    color: #111; /* Dark text color */
+    background-color: #fff; 
+    color: #111; 
     font-size: 14px;
   }
 
@@ -166,14 +166,13 @@
   .footer-columns {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Wrap columns on smaller screens */
+    flex-wrap: wrap; 
   }
 
-  /* Individual footer column styling */
   .footer-column {
-    flex: 1; /* Grow equally */
-    min-width: 180px; /* Minimum width for each column */
-    margin-right: 20px; /* Space between columns */
+    flex: 1; 
+    min-width: 180px; 
+    margin-right: 20px; 
   }
 
   /* Remove right margin for the last column */
@@ -189,10 +188,9 @@
 
   /* Links inside each column */
   .footer-column a {
-    display: block; /* Each link on its own line */
-    color: #111; /* Link color */
-    text-decoration: none; /* Remove underline */
-    margin-bottom: 8px; /* Spacing between links */
+    display: block; 
+    text-decoration: none; 
+    margin-bottom: 8px; 
     font-weight: normal;
   }
 
@@ -200,14 +198,12 @@
   .footer-column a:hover {
     text-decoration: underline;
   }
-
-  /* Bottom section of footer with copyright, extra links and social icons */
   .footer-bottom {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Wrap on smaller screens */
+    flex-wrap: wrap; 
   }
 
   /* Copyright text */
@@ -217,7 +213,7 @@
 
   /* Container for privacy, terms, disclaimer links */
   .footer-bottom .links a {
-    margin-left: 20px; /* Space between these links */
+    margin-left: 20px;
     color: #111;
     text-decoration: none;
   }
@@ -234,8 +230,29 @@
     font-size: 20px;
     text-decoration: none;
   }
-    
-    
-  
 
-    
+/*  size for latop   */
+@media (max-width:1024px){
+.title_box h1{
+  font-size: 56px;
+}
+.box_imge {
+  width: 21.3%;
+}
+.kingdom_box{
+   width: 21.3%;
+}
+}
+
+/* size for teblete */
+@media (max-width:768px){
+.title_box h1{
+  font-size: 32px;
+}
+.box_imge {
+  width: 20%;
+}
+.kingdom_box{
+   width: 20%;
+}
+}

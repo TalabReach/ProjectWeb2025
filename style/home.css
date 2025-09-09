@@ -1,426 +1,531 @@
 * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-    body {
-      background: #f9f9f9;
-    }
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 40px;
-      background: #131010d6;
-      color: white;
-      position: sticky;
-      top: 0;
-    }
-    .logo {
-      display: flex;
-      align-items: center;
-    }
- .logo img {
-      height: 40px;
-      margin-right: 10px;
-    }
-    .title {
-      font-size: 22px;
-      font-weight: bold;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 40px;
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: white;
-      font-size: 20px;
-      transition: color 0.3s;
-    }
-    nav ul li a:hover {
-      color: #00c3ff;
-    }
-    .btn{
-        background-color: blue;
-        padding: 10px 24px;
-        border-radius: 10px;
-        font-size: 16px; }        
-    .btn a{
-        text-decoration: none;
-        color: #f9f9f9;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-    .btn:hover{
-        background-color: rgb(53, 53, 173);
-    }
+body {
+  background: #f9f9f9;
+}
 
-    /* main */
-    main{
-        padding: 0px 24px;
-    }
-    .connected{
-        margin-top: 32px;
-        padding: 24px ;
-        display: flex;
-    }
-    .container h1{
-        font-size: 60px;
-    }
-    .container{
-        width: 60%;
-    }
-    .image{
-        width: 25px;
-    }
-    .image img{
-        margin-top: 24px;
-        width: 500px;
-        height: 400px;
-    }
-        
-    main .pharagaph{
-        margin-left: 8px;
-        margin-top: 24px;
-        width: 55%;
-        flex-wrap: wrap;
-        font-size: 18px;
-    }
-    .text_p{
-        margin-top: 24px;
-        margin-bottom: 24px;
-    }
-    .images{
-        padding: 0px 24px;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    h1{
-        margin-left: 24px;
-        margin-bottom: 24px;
-        font-size: 40px;
-    }
-    .images img{
-        width: 32%;
-        height: 300px;
-    }
-    /* Our story */
-    .our_story{
-        width: 100%;
-        padding: 0px 200px;
-        margin-top: 100px;
-        font-size: 18px;
-    }
-    .pharagaph1{
-        margin-top: 24px;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background: #131010d6;
+  color: white;
+  position: sticky;
+  top: 0;
+}
 
-    }
-    .image_alone{
-        margin-top: 72px;
-        width: 100%;
-        height: 500px;
-        margin-bottom: 72px;
-    }
-    
-    /* Icon page */
-    .icon{
-        
-        padding: 16px 16px;
-        width: 95%;
-        height: 200px;
-        background-color:#e7e2e2;
-        margin-left: 32px;
-        border-radius: 10px;
-        display: flex;
-        gap: 5px;
-    }
-    .icon_A{
-       text-align: center;
-       align-content: center;
-        border-radius: 10px;
-        width: 33%;
-        height: 150px;
-        
-    }
-    /* Put Icon */
-    .h1_con{
-        margin-top: 80px;
-        margin-bottom: 32px;
-    }
-    .icon_A span{
-        font-size: 80px;
-        color: red;
-    }
-    .icon_A p{
-        margin-top: -24px;
-    }
-    .icon2{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 100px;
-        margin-left: 32px;
-        width: 95%;
-        height: 300px;
-        
-    }
-    .class1{
-        width: 55%;
-        height: 250px;
+.logo {
+  display: flex;
+  align-items: center;
+}
 
-    }
-    .class2{
-        padding: 16px 24px ;
-        width: 40%;
-        height: 280px;
-        background-color:#e7e2e2;
-        border-radius: 10px;
-    }
-    h2 {
-        margin-top:4px;
-    }
-    .class2 span{
-        font-size: 56px;
-        color: red;
-    }
-    .Members{
-        margin-top: 64px;
-        text-align: center;
-        margin-bottom: 32px;
-    }
-    .Meet{
-        margin-top: 82px;
-        text-align: center;
-    }
-    .Meet a {
-        background-color: blue;
-        color: #f9f9f9;
-        text-decoration: none;
-        padding: 24px 24px;
-        border-radius: 10px;
-    }
-    .Meet a:hover{
-        background-color: rgb(27, 27, 172);
-    }
-    .Our_team{
-        margin-top: 160px;
-    }
-    .Our_team img{
-        width: 100%;
-        height: 600px;
-    }
-    .title_pp{
-        width: 100%;
-        display: flex;
-        gap: 4px;
-        margin-top: 32px;
-    }
-    .title_pp1{
-        padding: 50px ;
-        display: flex;
-        justify-content: center;
-        width: 50%;
-    }
-    .makebox3{
-        display: flex;
-        gap: 24px;
-        width: 100%;
-;
-    }
-    .main_box{
-        padding: 48px;
-        border-radius: 10px;
-        width: 34%;
-        height: 600px;
-        background-color: #6d5c5c;
-    }
-    .main_box p{
-        margin-top: 24px;
-        margin-bottom: 80px;
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
 
-    }
-    .main_box a{
-        text-decoration: none;
-    }
+.title {
+  font-size: 22px;
+  font-weight: bold;
+}
 
-    /* footer */
-    .card-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 40px;
-    }
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
 
-    .card {
-      background: #ebe5e5;
-      border-radius: 10px;
-      height: 450px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease;
-    }
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
 
-    .card:hover {
-      transform: translateY(-5px);
-    }
+nav ul li a:hover {
+  color: #00c3ff;
+}
 
-    .card img {
-      width: 100%;
-      height: 300px;
-      object-fit: cover;
-    }
+.btn {
+  background-color: blue;
+  padding: 10px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+}
 
-    .card-content {
-      padding: 20px;
-    }
+.btn a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
 
-    .card-content h3 {
-      font-size: 18px;
-      margin-bottom: 10px;
-      color: #333;
-    }
+.btn:hover {
+  background-color: rgb(53, 53, 173);
+}
 
-    .card-content p {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 15px;
-    }
+/* main */
+main {
+  padding: 0px 24px;
+}
 
-    .card-content a {
-      text-decoration: none;
-      color: #007bff;
-      font-weight: bold;
+.connected {
+  margin-top: 32px;
+  padding: 24px;
+  display: flex;
+}
 
-    }
+.container h1 {
+  font-size: 60px;
+}
 
-    .card-content a:hover {
-      text-decoration: underline;
-    }
+.container {
+  width: 60%;
+}
 
-    .Members_team{
-        margin-top: 100px;
-        width: 100%;
-        height: 400px ;
-        display: flex;
-        justify-content: center;
-    }
-    .members{
-       
-        width: 60%;
-        height: 450px;
-       text-align: center;
-    }
-    .menbers_img{
-        display: flex;
-        gap: 8px;
-        margin-left: 100px;
-        margin-bottom: 60px;
-    }
-     .menbers_img img{
-        
-        margin-top: 60px;
-        width: 60px;
-        border-radius: 100%;
-        height: 60px;
-     }
-     .menbers_img img:hover{
-        transform: translateY(-5px);
-   
-     }
-     .members a{
-        text-decoration: none;
-        background-color: blue;
-        color: whitesmoke;
-        padding: 14px;
-        border-radius: 10px;
-     }
-     .members a:hover{
-         background-color: rgb(53, 53, 173);
-     }
+.image {
+  width: 25px;
+}
 
-    .footer {
-    width: 100%;
-    padding: 40px 100px;
-    margin-top: 40px;
-    background-color: #fff; /* White background */
-    color: #111; /* Dark text color */
-    font-size: 14px;
+.image img {
+  margin-top: 24px;
+  width: 500px;
+  height: 400px;
+}
+
+main .pharagaph {
+  margin-left: 8px;
+  margin-top: 24px;
+  width: 55%;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.text_p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.images {
+  padding: 0px 24px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin-left: 24px;
+  margin-bottom: 24px;
+  font-size: 40px;
+}
+
+.images img {
+  width: 32%;
+  height: 300px;
+}
+
+/* Our story */
+.our_story {
+  width: 100%;
+  padding: 0px 200px;
+  margin-top: 100px;
+  font-size: 18px;
+}
+
+.pharagaph1 {
+  margin-top: 24px;
+
+}
+
+.image_alone {
+  margin-top: 72px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 72px;
+}
+
+/* Icon page */
+.icon {
+
+  padding: 16px 16px;
+  width: 95%;
+  height: 200px;
+  background-color: #e7e2e2;
+  margin-left: 32px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.icon_A {
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+  width: 33%;
+  height: 150px;
+
+}
+
+/* Put Icon */
+.h1_con {
+  margin-top: 80px;
+  margin-bottom: 32px;
+}
+
+.icon_A span {
+  font-size: 80px;
+  color: red;
+}
+
+.icon_A p {
+  margin-top: -24px;
+}
+
+.icon2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 32px;
+  width: 95%;
+  height: 300px;
+
+}
+
+.class1 {
+  width: 55%;
+  height: 250px;
+
+}
+
+.class2 {
+  padding: 16px 24px;
+  width: 40%;
+  height: 280px;
+  background-color: #e7e2e2;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 4px;
+}
+
+.class2 span {
+  font-size: 56px;
+  color: red;
+}
+
+.Members {
+  margin-top: 64px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.Meet {
+  margin-top: 82px;
+  text-align: center;
+}
+
+.Meet a {
+  background-color: blue;
+  color: #f9f9f9;
+  text-decoration: none;
+  padding: 24px 24px;
+  border-radius: 10px;
+}
+
+.Meet a:hover {
+  background-color: rgb(27, 27, 172);
+}
+
+.Our_team {
+  margin-top: 160px;
+}
+
+.Our_team img {
+  width: 100%;
+  height: 600px;
+}
+
+.title_pp {
+  width: 100%;
+  display: flex;
+  gap: 4px;
+  margin-top: 32px;
+}
+
+.title_pp1 {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.makebox3 {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  ;
+}
+
+.main_box {
+  padding: 48px;
+  border-radius: 10px;
+  width: 34%;
+  height: 600px;
+  background-color: #6d5c5c;
+}
+
+.main_box p {
+  margin-top: 24px;
+  margin-bottom: 80px;
+
+}
+
+.main_box a {
+  text-decoration: none;
+}
+
+/* footer */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.card {
+  background: #ebe5e5;
+  border-radius: 10px;
+  height: 450px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card-content a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}
+
+.Members_team {
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.members {
+
+  width: 60%;
+  height: 450px;
+  text-align: center;
+}
+
+.menbers_img {
+  display: flex;
+  gap: 8px;
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+
+.menbers_img img {
+
+  margin-top: 60px;
+  width: 60px;
+  border-radius: 100%;
+  height: 60px;
+}
+
+.menbers_img img:hover {
+  transform: translateY(-5px);
+
+}
+
+.members a {
+  text-decoration: none;
+  background-color: blue;
+  color: whitesmoke;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.members a:hover {
+  background-color: rgb(53, 53, 173);
+}
+
+.footer {
+  width: 100%;
+  padding: 40px 100px;
+  margin-top: 40px;
+  background-color: #fff;
+  color: #111;
+  font-size: 14px;
+}
+
+/* Container for the columns, using flexbox for layout */
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+  margin-right: 20px;
+}
+
+/* Remove right margin for the last column */
+.footer-column:last-child {
+  margin-right: 0;
+}
+
+/* Column heading style */
+.footer-column h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Links inside each column */
+.footer-column a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+/* Hover effect on links */
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Copyright text */
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Container for privacy, terms, disclaimer links */
+.footer-bottom .links a {
+  margin-left: 20px;
+  color: #111;
+  text-decoration: none;
+}
+
+/* Hover effect for bottom links */
+.footer-bottom .links a:hover {
+  text-decoration: underline;
+}
+
+/* Social media icons container */
+.social-icons a {
+  margin-left: 15px;
+  color: #111;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* labtop  */
+@media (max-width:1024px) {
+  .image img {
+    width: 380px;
   }
 
-  /* Container for the columns, using flexbox for layout */
-  .footer-columns {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* Wrap columns on smaller screens */
+  .container h1 {
+    margin-top: 24px;
+    font-size: 40px;
+    line-height: 24px;
+    margin-bottom: 24px;
   }
 
-  /* Individual footer column styling */
-  .footer-column {
-    flex: 1; /* Grow equally */
-    min-width: 180px; /* Minimum width for each column */
-    margin-right: 20px; /* Space between columns */
+  .images img {
+    width: 49.6%;
   }
 
-  /* Remove right margin for the last column */
-  .footer-column:last-child {
-    margin-right: 0;
+  .menbers_img {
+    margin-left: 40px;
   }
 
-  /* Column heading style */
-  .footer-column h3 {
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
+  .menbers_img img {
+    width: 50px;
 
-  /* Links inside each column */
-  .footer-column a {
-    display: block; /* Each link on its own line */
-    color: #111; /* Link color */
-    text-decoration: none; /* Remove underline */
-    margin-bottom: 8px; /* Spacing between links */
-    font-weight: normal;
   }
+}
 
-  /* Hover effect on links */
-  .footer-column a:hover {
-    text-decoration: underline;
+/* tablet */
+@media (max-width:768px) {
+  .image img {
+    margin-top: -8px;
+    width: 300px;
   }
-
-  /* Bottom section of footer with copyright, extra links and social icons */
-  .footer-bottom {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; /* Wrap on smaller screens */
+  .pharagaph{
+    margin-right: 10px;
+    background-color: #00c3ff;
   }
-
-  /* Copyright text */
-  .footer-bottom p {
-    margin: 0;
+  .container {
+    background-color: #6d5c5c;
   }
-
-  /* Container for privacy, terms, disclaimer links */
-  .footer-bottom .links a {
-    margin-left: 20px; /* Space between these links */
-    color: #111;
-    text-decoration: none;
+  .container h1 {
+    margin-top: -4px;
+    font-size: 32px;
+    line-height: 24px;
+    margin-bottom: 24px;
   }
-
-  /* Hover effect for bottom links */
-  .footer-bottom .links a:hover {
-    text-decoration: underline;
+  .class2{
+    height: 320px;
   }
-
-  /* Social media icons container */
-  .social-icons a {
-    margin-left: 15px;
-    color: #111;
+  .class2 h2{
     font-size: 20px;
-    text-decoration: none;
   }
+   .menbers_img {
+    margin-left: 4px;
+  }
+  .menbers_img img {
+    width: 40px;}
     
-    
-  
-
-    
+  .footer{
+    margin-top: 32px;
+  }
+}
