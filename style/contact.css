@@ -266,8 +266,8 @@ textarea {
     width: 100%;
     padding: 40px 100px;
     margin-top: 40px;
-    background-color: #fff; /* White background */
-    color: #111; /* Dark text color */
+    background-color: #fff;
+    color: #111; 
     font-size: 14px;
   }
 
@@ -275,14 +275,14 @@ textarea {
   .footer-columns {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Wrap columns on smaller screens */
+    flex-wrap: wrap; 
   }
 
   /* Individual footer column styling */
   .footer-column {
-    flex: 1; /* Grow equally */
-    min-width: 180px; /* Minimum width for each column */
-    margin-right: 20px; /* Space between columns */
+    flex: 1;
+    min-width: 180px; 
+    margin-right: 20px; 
   }
 
   /* Remove right margin for the last column */
@@ -298,10 +298,10 @@ textarea {
 
   /* Links inside each column */
   .footer-column a {
-    display: block; /* Each link on its own line */
-    color: #111; /* Link color */
-    text-decoration: none; /* Remove underline */
-    margin-bottom: 8px; /* Spacing between links */
+    display: block;
+    color: #111; 
+    text-decoration: none; 
+    margin-bottom: 8px;
     font-weight: normal;
   }
 
@@ -310,13 +310,12 @@ textarea {
     text-decoration: underline;
   }
 
-  /* Bottom section of footer with copyright, extra links and social icons */
   .footer-bottom {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Wrap on smaller screens */
+    flex-wrap: wrap; 
   }
 
   /* Copyright text */
@@ -324,9 +323,8 @@ textarea {
     margin: 0;
   }
 
-  /* Container for privacy, terms, disclaimer links */
   .footer-bottom .links a {
-    margin-left: 20px; /* Space between these links */
+    margin-left: 20px;
     color: #111;
     text-decoration: none;
   }
@@ -336,7 +334,6 @@ textarea {
     text-decoration: underline;
   }
 
-  /* Social media icons container */
   .social-icons a {
     margin-left: 15px;
     color: #111;
@@ -344,10 +341,31 @@ textarea {
     text-decoration: none;
   }
 
-  .social_media img{
-    width: 20px;
+  @media (max-width:1024px){
+    main h1{
+      font-size: 40px;
+    }
+    form{
+      width: 80%;
+      margin-left: 80px;
+    }
   }
-    
+  @media (max-width:768px){
+    main h1{
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+      .footer-columns {
+      gap: 60px;
+  }
+  .social-icons{
+    margin-top: 8px;
+  }
+ 
+
+  
+  }
+
     
   
 

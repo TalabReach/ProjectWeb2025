@@ -217,6 +217,11 @@
       margin-top: 0;
     }
 
+    .dtn{
+      width: 100%;
+      padding: 0px 32px;
+    }
+
     .conference-details .tag {
       display: inline-block;
       background: #eef0f3;
@@ -229,22 +234,29 @@
 
     .conference-details .date-location {
       font-size: 14px;
-      color: #666;
+      color: hsl(0, 12%, 53%);
       margin: 10px 0;
     }
 
     .conference-details p.description {
       font-size: 14px;
-      color: #333;
+      color: #777272;
       line-height: 1.6;
+    }
+    .banner_tn{
+      width: 100%;
+      padding: 0px 32px;
     }
 
      .banner {
+      margin-top: 40px;
       background-color: #0d5bcc;
       color: white;
       padding: 50px 20px;
       position: relative;
       overflow: hidden;
+      /* display: flex;
+      flex-direction: ; */
     }
 
     .banner h1 {
@@ -262,6 +274,7 @@
       color: #0d5bcc;
       border: none;
       padding: 10px 20px;
+      
       font-size: 16px;
       border-radius: 6px;
       cursor: pointer;
@@ -280,5 +293,87 @@
       height: 100%;
       background: linear-gradient(135deg, #0d5bcc, #f04a4a);
       transform: rotate(45deg);
-      opacity: 0.7;
+      opacity: 0.9;
     }
+     .footer {
+    width: 100%;
+    padding: 40px 100px;
+    margin-top: 40px;
+    background-color: #fff;
+    color: #111; 
+    font-size: 14px;
+  }
+
+  /* Container for the columns, using flexbox for layout */
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  }
+
+  /* Individual footer column styling */
+  .footer-column {
+    flex: 1;
+    min-width: 180px; 
+    margin-right: 20px; 
+  }
+
+  /* Remove right margin for the last column */
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+
+  /* Column heading style */
+  .footer-column h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  /* Links inside each column */
+  .footer-column a {
+    display: block;
+    color: #111; 
+    text-decoration: none; 
+    margin-bottom: 8px;
+    font-weight: normal;
+  }
+
+  /* Hover effect on links */
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+
+  /* Copyright text */
+  .footer-bottom p {
+    margin: 0;
+  }
+
+  .footer-bottom .links a {
+    margin-left: 20px;
+    color: #111;
+    text-decoration: none;
+  }
+
+  /* Hover effect for bottom links */
+  .footer-bottom .links a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons a {
+    margin-left: 15px;
+    color: #111;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .social_media img{
+    width: 20px;
+  }
