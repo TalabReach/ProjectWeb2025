@@ -20,6 +20,9 @@ header {
   top: 0;
   z-index: 5;
 }
+.home{
+  color: #00c3ff;
+}
 
 .logo {
   display: flex;

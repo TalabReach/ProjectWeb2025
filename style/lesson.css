@@ -35,6 +35,9 @@
       display: flex;
       gap: 40px;
     }
+    .lesson{
+      color: #00c3ff;
+    }
     nav ul li a {
       text-decoration: none;
      color: #f9f9f9;
