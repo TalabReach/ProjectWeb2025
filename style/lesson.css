@@ -224,8 +224,7 @@ button:hover {
     }
 
     .course-card img {
-      width: 100px;
-      height: px;
+      width: 80px;
       margin-bottom: 20px;
       object-fit: contain;
     }
@@ -245,5 +244,48 @@ button:hover {
       font-size: 15px;
       color: #333;
     }
+    .add_video{
+      margin-top: 32px;
+      width: 100%;
+      height: auto;
+      background-color: #fff;
+      padding: 32px 32px;
+
+    }
+    .videos{
+      margin-top: 32px;
+      width: 100%;
+      height: auto;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .card_video{
+       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 23%;
+      height: 280px;
+      border: 1px black solid;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .video{
+      width: 100%;
+      height: 60%;
+      background-color: #00c3ff;
+      border-radius: 5px;
+      margin-bottom: 8px;
+    }
+    .video_h_p{
+      padding: 0px 4px;
+    }
+    .video_h_p h3{
+      margin-bottom: 12px;
+    }
+    .video_h_p p{
+      margin-top: 4px;
+    }
+  
 
 
