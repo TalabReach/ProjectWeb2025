@@ -11,12 +11,12 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 10px 40px;
+      padding: 7px 40px;
       background: #131010d6;
       color: white;
       position: sticky;
       top: 0;
-      z-index: 9999;
+      z-index:9999;
     }
     .logo {
       display: flex;
@@ -379,6 +379,39 @@ button:hover {
     color: #111;
     font-size: 20px;
     text-decoration: none;
+  }
+
+  @media (max-width:1024px){
+    .course-card{
+      width: 22%;
+    }
+    .card_video{
+      height: 260px;
+    }
+    .video_h_p h3{
+      font-size: 15px;
+    }
+
+  }
+
+  @media (max-width:1024px){
+    .card_video{
+      width: 30%;
+    }
+     .course-card{
+      width: 40%;
+     }
+     .text_title{
+      width: 100%;
+      padding: 0px 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+     }
+      .footer-columns {
+      gap: 20px;
+  }
   }
 
 
