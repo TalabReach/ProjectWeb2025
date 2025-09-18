@@ -97,6 +97,7 @@
     .title a {
       color: #2e0071;
       text-decoration: underline;
+      text-decoration: none;
     }
 
     .text_title{
@@ -265,8 +266,7 @@ button:hover {
     .card_video{
        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
       width: 23%;
-      height: 280px;
-      
+      height: 280px;  
       border-radius: 5px;
       overflow: hidden;
     }
@@ -277,6 +277,11 @@ button:hover {
       border-radius: 5px;
       margin-bottom: 8px;
     }
+    .vo{
+      width: 100%;
+      text-align: center;
+    }
+    
     .video_h_p{
       padding: 0px 4px;
     }
@@ -291,6 +296,90 @@ button:hover {
       width: 100%;
       height: 100%;
     }
+    .card_video:hover{
+      background-color: #f8f2f2;
+      transform: translateY(-5px);
+    }
   
+
+    .footer {
+    width: 100%;
+    padding: 40px 100px;
+    margin-top: 40px;
+    background-color: #fff;
+    color: #111; 
+    font-size: 14px;
+  }
+
+  /* Container for the columns, using flexbox for layout */
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  }
+
+  /* Individual footer column styling */
+  .footer-column {
+    flex: 1;
+    min-width: 180px; 
+    margin-right: 20px; 
+  }
+
+  /* Remove right margin for the last column */
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+
+  /* Column heading style */
+  .footer-column h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  /* Links inside each column */
+  .footer-column a {
+    display: block;
+    color: #111; 
+    text-decoration: none; 
+    margin-bottom: 8px;
+    font-weight: normal;
+  }
+
+  /* Hover effect on links */
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+
+  /* Copyright text */
+  .footer-bottom p {
+    margin: 0;
+  }
+
+  .footer-bottom .links a {
+    margin-left: 20px;
+    color: #111;
+    text-decoration: none;
+  }
+
+  /* Hover effect for bottom links */
+  .footer-bottom .links a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons a {
+    margin-left: 15px;
+    color: #111;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
 
 
