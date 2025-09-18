@@ -394,7 +394,7 @@ button:hover {
 
   }
 
-  @media (max-width:1024px){
+  @media (max-width:768px){
     .card_video{
       width: 30%;
     }
@@ -413,6 +413,9 @@ button:hover {
       gap: 20px;
   }
   }
+
+ 
+  
 
 
 
