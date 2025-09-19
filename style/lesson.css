@@ -414,8 +414,12 @@ button:hover {
   }
   }
 
- 
-  
+  @media (max-width: 424px) {
 
-
-
+    main{
+      width: 100%;
+      padding: 0px 0px ;
+      margin: 0px 0px;
+    }
+  }
+     

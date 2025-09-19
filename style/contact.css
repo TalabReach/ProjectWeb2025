@@ -356,18 +356,16 @@ textarea {
       font-size: 30px;
       margin-bottom: 8px;
     }
-      .footer-columns {
-      gap: 60px;
-  }
+     .footer-columns {
+      gap: 20px;}
   .social-icons{
     margin-top: 8px;
   }
- 
+ }
+
 
   
-  }
+
 
     
   
-
-    
