@@ -389,12 +389,11 @@
       margin: 0 0 20px;
     }
 
-    .banner .contact-btn {
+    .banner .contact-btn  {
       background-color: white;
       color: #0d5bcc;
       border: none;
       padding: 10px 20px;
-      
       font-size: 16px;
       border-radius: 6px;
       cursor: pointer;
@@ -406,6 +405,10 @@
     .banner a{
       margin-top: 100px;
       z-index: 1;
+    }
+    .contact-btn p{
+      padding: 0px 4px;
+      margin-bottom: 2px;
     }
 
 
@@ -622,7 +625,7 @@
       height: 32px;
     }
     .contact-btn p{
-      font-size: 12px;
+      font-size: 10px;
     }
      .footer{
         padding: 24px 10px;
