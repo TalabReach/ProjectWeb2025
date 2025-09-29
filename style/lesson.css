@@ -419,10 +419,13 @@ button:hover {
   }
 
   @media (max-width: 426px) {
-  .logo img{
+       .logo img{
     width: 90%;
-    height: 42px;
-    margin-top: 16px;}
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: -2px;
+ 
+  }
   nav ul li{
     display: none;
    }
@@ -505,6 +508,9 @@ button:hover {
    .card_video{
     width: 100%;
    }
+    .footer{
+        padding: 24px 10px;
+      }
 
   }
      

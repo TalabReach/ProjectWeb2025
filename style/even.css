@@ -562,3 +562,71 @@
     .footer-columns {
       gap: 20px;}
    }
+     @media (max-width:426px){
+       .logo img{
+    width: 90%;
+    height: 42px;
+    margin-top: -8px;
+  }
+  nav ul li{
+    display: none;
+   }
+   .btn {
+    display: none;
+   }
+   .span_none{
+    display: block;
+    color: #f8f4f4; 
+   }
+   .span_none:hover{
+    color: #007bff;
+   }
+    ul{
+    margin-left: 20px;
+   }
+   .section-title{
+    font-size: 26px;
+    margin-left: 10px;
+
+   }
+    .filter-select,
+    .filter-input {
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      width: 160px;
+      border-radius: 4px;
+    }
+    .card_1{
+      width: 100%;
+      height: 200px;
+
+    }
+    .card_1 h1{
+      font-size: 24px;
+    }
+    .card_2{
+      display: none;
+    }
+    .hh1{
+      font-size: 24px;
+    }
+    .container h1{
+      font-size: 24px;
+    }
+    .banner h1{
+      font-size: 20px;
+    }
+    .contact-btn{
+      width: 100px;
+      height: 32px;
+    }
+    .contact-btn p{
+      font-size: 12px;
+    }
+     .footer{
+        padding: 24px 10px;
+      }
+     }
+
+  
