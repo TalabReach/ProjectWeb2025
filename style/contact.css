@@ -48,6 +48,10 @@ nav ul li a {
     font-size: 20px;
     transition: color 0.3s;
 }
+.span_none{
+    display: none;
+    color: #f8f4f4; 
+   }
 
 nav ul li a:hover {
     color: #00c3ff;
